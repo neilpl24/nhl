@@ -1,2 +1,2 @@
-# nhl
-All of my hockey code
+# @PierreAnalytics NHL Repository
+All of my hockey code!
