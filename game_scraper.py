@@ -41,7 +41,7 @@ def game_scraper(game_id):
                             goalie = player['player']['fullName']
                 secondaryType = 'NA' if('secondaryType' not in play['result'].keys(
                 )) else play['result']['secondaryType']
-                play = away if play['team']['name'] == home else home
+                opposing_team = away if play['team']['name'] == home else home
                 isEmpty = play['result']['emptyNet']
                 team = play['team']['name']
                 team_arr = []
